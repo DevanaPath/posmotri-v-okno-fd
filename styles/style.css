@@ -136,7 +136,7 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   min-width: 0;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .search-form__fieldset-title {
@@ -160,13 +160,14 @@ ol {
 
 .content__accent {
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.2); 
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .content__card-link {
   text-decoration: none;
   color: #fff;
   display: block;
+  cursor: pointer;
 }
 
 .content__video-card-title {
@@ -219,7 +220,7 @@ ol {
   flex-direction: row;
   align-items: center;
   width: fit-content;
-  gap: 5px; 
+  gap: 5px;
 }
 
 .search-form__textfield {
@@ -252,15 +253,6 @@ ol {
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-
-.search-form__checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
 }
 
 .search-form__pseudo-checkbox {
@@ -345,13 +337,6 @@ ol {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-
-.content__card-link {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 .content__card-link_current {
